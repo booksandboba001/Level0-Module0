@@ -63,6 +63,6 @@ public class RobotDemo {
 
 
 	public static void main(String[] args) {
-		demo2();
+		demo0();
 	}
 }
