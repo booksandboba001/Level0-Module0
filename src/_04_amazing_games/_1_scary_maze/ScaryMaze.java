@@ -39,7 +39,7 @@ public class ScaryMaze extends JPanel implements Runnable, MouseMotionListener {
 		
 		
 		//2. Change the line of code below so that it uses YOUR maze's file name
-		maze = ImageIO.read(getClass().getResource("standardMaze.png"));
+		maze = ImageIO.read(getClass().getResource("images/pixil-frame-0.png"));
 		
 		
 		//3. Run the program. Do you see your maze? Don't continue until you do.
@@ -55,7 +55,7 @@ public class ScaryMaze extends JPanel implements Runnable, MouseMotionListener {
 		int mouseX = e.getX();
 		int mouseY = e.getY();
 		int mouseColor = maze.getRGB(mouseX, mouseY);	
-		
+		System.out.println(mouseColor);
 		//4. Print the mouseColor variable (Hint: use syso)
 		
 		//5.  Run your program and move your mouse over the START COLOR. A number will be printed to the console
